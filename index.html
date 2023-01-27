@@ -57,11 +57,14 @@
         <p>Dated 18th January, 2023</p>
         <img src="images/signature.jpg" alt="signature" />
         <p class="signatory">FLORENCE W.MUTURI</p>
-        <p class="signatory">SECRETARY/CEO</p>
+        <p class="signatory" id="signatory">SECRETARY/CEO</p>
       </div>
     </section>
 
     <style>
+
+        /* GOOGLE FONTS IMPORT */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
         *{
             /* border:1px solid red; */
@@ -79,6 +82,7 @@
             flex-direction: column;
             align-items:center;
             max-width:1000px;
+            font-family:'Poppins',sans-serif;
         }
 
         .logo{
@@ -135,6 +139,10 @@
 
         .signatory{
             font-weight: 800;
+        }
+
+        #signatory{
+            text-decoration: underline;
         }
 
     </style>
