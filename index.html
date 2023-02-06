@@ -4,6 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lsk Dispatch Notice</title>
+    <!-- font families -->
+    <link
+    href="//db.onlinewebfonts.com/c/0dc85fad34f00fbec56d8081d0f9267a?family=Maiandra+GD"
+    rel="stylesheet"
+    type="text/css"
+  />
   </head>
   <body>
     <section>
@@ -67,6 +73,40 @@
       /* GOOGLE FONTS IMPORT */
       @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
 
+      /* imported fonts */
+      @import url(//db.onlinewebfonts.com/c/423c5077bf2221d0f77f1fb9cb97d92d?family=Copperplate);
+    @font-face {
+      font-family: "Copperplate";
+      src: url("//db.onlinewebfonts.com/t/423c5077bf2221d0f77f1fb9cb97d92d.eot");
+      src: url("//db.onlinewebfonts.com/t/423c5077bf2221d0f77f1fb9cb97d92d.eot?#iefix")
+          format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/423c5077bf2221d0f77f1fb9cb97d92d.woff2")
+          format("woff2"),
+        url("//db.onlinewebfonts.com/t/423c5077bf2221d0f77f1fb9cb97d92d.woff")
+          format("woff"),
+        url("//db.onlinewebfonts.com/t/423c5077bf2221d0f77f1fb9cb97d92d.ttf")
+          format("truetype"),
+        url("//db.onlinewebfonts.com/t/423c5077bf2221d0f77f1fb9cb97d92d.svg#Copperplate")
+          format("svg");
+    }
+
+    @import url(//db.onlinewebfonts.com/c/0dc85fad34f00fbec56d8081d0f9267a?family=Maiandra+GD);
+    @import url(//db.onlinewebfonts.com/c/3032a3f61ac92f7f4d83a059f7087b43?family=Resotho+Extralight);
+    @font-face {
+      font-family: "Maiandra GD";
+      src: url("//db.onlinewebfonts.com/t/0dc85fad34f00fbec56d8081d0f9267a.eot");
+      src: url("//db.onlinewebfonts.com/t/0dc85fad34f00fbec56d8081d0f9267a.eot?#iefix")
+          format("embedded-opentype"),
+        url("//db.onlinewebfonts.com/t/0dc85fad34f00fbec56d8081d0f9267a.woff2")
+          format("woff2"),
+        url("//db.onlinewebfonts.com/t/0dc85fad34f00fbec56d8081d0f9267a.woff")
+          format("woff"),
+        url("//db.onlinewebfonts.com/t/0dc85fad34f00fbec56d8081d0f9267a.ttf")
+          format("truetype"),
+        url("//db.onlinewebfonts.com/t/0dc85fad34f00fbec56d8081d0f9267a.svg#Maiandra GD")
+          format("svg");
+    }
+
       * {
         /* border: 1px solid red; */
         margin: 0;
@@ -77,13 +117,15 @@
         display: flex;
         justify-content: space-around;
       }
-
+      
       section {
+        /* font-family: "Copperplate", sans-serif; */
+        font-family: "Maiandra GD", sans-serif;
         display: flex;
         flex-direction: column;
         align-items: center;
         max-width: 1000px;
-        font-family: "Poppins", sans-serif;
+        font-weight:200; 
       }
 
       .logo-container {
@@ -117,7 +159,9 @@
         font-weight: 600;
         margin: 20px 0px;
         color: white;
-        background-color: darkblue;
+        /* font-family: "Copperplate"; */
+        font-family: "Maiandra GD";
+        background-color: rgb(2,204, 254);
         padding:5px;
       }
 
